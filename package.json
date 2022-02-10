@@ -1,0 +1,43 @@
+{
+  "name": "jeopardy",
+  "version": "1.0.0",
+  "description": "Jeopardy Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack -w",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwolf2531/hr-bge0-mvp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwolf2531/hr-bge0-mvp/issues"
+  },
+  "homepage": "https://github.com/mwolf2531/hr-bge0-mvp#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "babel": "^6.23.0",
+    "bootstrap": "^5.1.3",
+    "dotenv": "^14.3.1",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.1.1",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.5",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.1"
+  }
+}

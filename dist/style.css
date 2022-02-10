@@ -1,0 +1,52 @@
+html {
+  padding: 4%;
+  background-color: rgb(18, 18, 100);
+}
+
+#container {
+  background-color: rgb(18, 18, 100);
+}
+
+
+#table {
+  background-color: blue;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size:larger;
+  border: black;
+  border-width: thick;
+
+}
+
+#table-head {
+  background-color: blue;
+  color: white;
+}
+
+#list {
+  max-height: 250px;
+  overflow: scroll;
+  background-color: rgb(211, 211, 211);
+}
+
+#button {
+  background-color: blue;
+  color: yellow;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 14px 28px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#button:hover {
+  background-color: rgb(116, 116, 116, .4);
+}
+
+h3 {
+  padding-left: 4%;
+}
